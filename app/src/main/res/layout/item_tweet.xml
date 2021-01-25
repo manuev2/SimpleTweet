@@ -17,8 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
-        android:text="manuev2" />
+        android:layout_toEndOf="@+id/tvName"
+        android:text="@manuev2" />
 
     <TextView
         android:id="@+id/tvBody"
@@ -39,5 +39,15 @@
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/tvScreenName"
         android:text="35m" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:text="Manuel Vega"
+        android:textSize="16dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
