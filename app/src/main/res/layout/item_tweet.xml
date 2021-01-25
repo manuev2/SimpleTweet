@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@+id/tvName"
-        android:text="@manuev2" />
+        android:text="manuev2" />
 
     <TextView
         android:id="@+id/tvBody"
@@ -49,5 +49,6 @@
         android:text="Manuel Vega"
         android:textSize="16dp"
         android:textStyle="bold" />
+
 
 </RelativeLayout>
